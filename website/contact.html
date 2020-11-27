@@ -50,8 +50,8 @@
 
 					<header class="special container">
 						<span class="icon solid fa-envelope"></span>
-						<h2>Get In Touch</h2>
-						<p>Use the form below to give /dev/null a piece of your mind.</p>
+						<h2>Get In Touch with Us</h2>
+						<p>Use the form below for any questions you have!</p>
 					</header>
 
 					<!-- One -->
@@ -59,13 +59,13 @@
 
 							<!-- Content -->
 								<div class="content">
-									<form>
+									<form method="post" action="contact.php">
 										<div class="row gtr-50">
 											<div class="col-6 col-12-mobile">
-												<input type="text" name="name" placeholder="Name" />
+												<input type="text" name="sender" placeholder="Name" />
 											</div>
 											<div class="col-6 col-12-mobile">
-												<input type="text" name="email" placeholder="Email" />
+												<input type="text" name="senderEmail" placeholder="Email" />
 											</div>
 											<div class="col-12">
 												<input type="text" name="subject" placeholder="Subject" />
@@ -75,7 +75,7 @@
 											</div>
 											<div class="col-12">
 												<ul class="buttons">
-													<li><input type="submit" class="special" value="Send Message" /></li>
+													<li><input type="submit" class="special" name="submit" value="Send Message" /></li>
 												</ul>
 											</div>
 										</div>
