@@ -1,1 +1,4 @@
 # jammatennissite
+---
+permalink: /index.html
+---
